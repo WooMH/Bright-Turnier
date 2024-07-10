@@ -18,5 +18,10 @@ public class Inventory : MonoBehaviour
             inventoryPanel.SetActive(activeInventory);
         }
     }
+    public void ToggleInventory()
+    {
+        activeInventory = !activeInventory;
+        inventoryPanel.SetActive(activeInventory);
+    }
 }
 
