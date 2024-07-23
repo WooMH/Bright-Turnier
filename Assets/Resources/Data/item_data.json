@@ -1,0 +1,23 @@
+[
+  {
+    "id": "100",
+    "name": "모험가의 검",
+    "type": "0",
+    "sprite_name": "equip_sword_0",
+    "sell_price": "1000"
+  },
+  {
+    "id": "200",
+    "name": "포션",
+    "type": "1",
+    "sprite_name": "consumable_potion_red_0",
+    "sell_price": "100"
+  },
+  {
+    "id": "300",
+    "name": "독수리의 발톱",
+    "type": "2",
+    "sprite_name": "other_teeth_0",
+    "sell_price": "50"
+  }
+]
