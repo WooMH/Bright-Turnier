@@ -10,6 +10,8 @@ public class ToggleManager : MonoBehaviour
     private bool activeInventory = false;
     private bool activeOption = false;
 
+    public ResolutionManager resolutionManager;
+
     void Start()
     {
         inventoryPanel.SetActive(activeInventory);
@@ -21,6 +23,13 @@ public class ToggleManager : MonoBehaviour
         {
             activeInventory = !activeInventory;
             inventoryPanel.SetActive(activeInventory);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            activeOption = !activeOption;
+            optionPanel.SetActive(activeOption);
+            resolutionManager.CancelSettings();
         }
     }
 

@@ -372,8 +372,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 17, y: 812}
-  m_SizeDelta: {x: 0, y: -1695.55}
+  m_AnchoredPosition: {x: 0, y: 812.5}
+  m_SizeDelta: {x: 0, y: -1695}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &58674412
 MonoBehaviour:
@@ -757,7 +757,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -563, y: -11}
+  m_AnchoredPosition: {x: -538, y: -11}
   m_SizeDelta: {x: 5, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &183644463
@@ -1267,7 +1267,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -423, y: -8}
+  m_AnchoredPosition: {x: -392, y: -8}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &293448845
@@ -1525,7 +1525,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 311755905}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1939079371}
+        m_TargetAssemblyTypeName: ToggleManager, Assembly-CSharp
+        m_MethodName: ToggleOption
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &311755905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1646,7 +1658,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 312114104}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1939079371}
+        m_TargetAssemblyTypeName: ToggleManager, Assembly-CSharp
+        m_MethodName: ToggleOption
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &312114104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1865,6 +1889,7 @@ MonoBehaviour:
   resolutionDropdown: {fileID: 1379810068}
   fullscreenToggle: {fileID: 1735441328}
   applyButton: {fileID: 311755904}
+  cancelButton: {fileID: 312114103}
 --- !u!1001 &323073835
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7862,7 +7887,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 280, y: -43}
+  m_AnchoredPosition: {x: 285, y: -10}
   m_SizeDelta: {x: 1050, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1236878216
@@ -7920,7 +7945,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -9857,10 +9882,10 @@ RectTransform:
   - {fileID: 1236878215}
   m_Father: {fileID: 1441595696}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: -17}
-  m_SizeDelta: {x: 0, y: 95}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 275, y: -40}
+  m_SizeDelta: {x: 550, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1456196869
 MonoBehaviour:
@@ -12253,7 +12278,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -638, y: 19}
+  m_AnchoredPosition: {x: -607, y: 11}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1853719474
@@ -13027,6 +13052,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryPanel: {fileID: 151121682}
   optionPanel: {fileID: 1109280454}
+  resolutionManager: {fileID: 315976582}
 --- !u!224 &1944291013 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8407976504995393163, guid: 5d0e9256eb6718a46a8c73acb57d6ed8, type: 3}
@@ -13832,7 +13858,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2099231240
 RectTransform:
   m_ObjectHideFlags: 0
